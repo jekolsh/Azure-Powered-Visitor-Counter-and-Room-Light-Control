@@ -20,14 +20,14 @@ This project aims to implement an intelligent room system integrating a visitor 
 3. Install the Azure SDK for C library in the Arduino IDE library manager.
 
 ## System Architecture
-![circuit](.png)
+![circuit](Images/diagram.png)
 
 ## Hardware Components
 - 2 IR motion sensors (for counting incoming and outgoing visitors)
 - LED lamp (room lighting)
 - Node-MCU ESP8266 board for sensor data processing
 
-![circuit](Schematic.png)
+![circuit](Images/Schematic.png)
 
 
 ## Software Components
@@ -62,7 +62,7 @@ This project aims to implement an intelligent room system integrating a visitor 
     
         The script uses the Telegram Bot API to send messages, handling errors and logging responses for monitoring. In essence, it serves as a real-time notifier for room status changes.
 
-![telegram](telegram_events.png)
+![telegram](Images/telegram_events.png)
 
 
 4. **Light Control:** LED lamp is controlled based on sensor data, turning on/off with detected occupancy.
@@ -70,7 +70,7 @@ This project aims to implement an intelligent room system integrating a visitor 
 5. **Data Visualization:** I use Power BI as my data dashboard, where I can see and analyze information gathered from Azure IoT Hub. This setup makes it simple to ask questions about the data and create reports, offering insights into how well the intelligent room system is doing. With Power BI, I can easily spot trends, patterns, and get live updates on room occupancy and other key metrics."
 
 
-![powerBI](PowerBI_visualization.png)
+![powerBI](Images/PowerBI_visualization.png)
 
 
 
