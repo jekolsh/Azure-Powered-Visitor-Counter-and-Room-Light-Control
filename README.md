@@ -12,7 +12,7 @@
   - [Security and Scalability](#security-and-scalability)
 
 ## Overview
-This project aims to implement an intelligent room system integrating a visitor counter and light control, utilizing Azure IoT capabilities. Two infrared motion sensors placed at the entrance track incoming and outgoing visitors. A microcontroller connects to Azure IoT Hub via MQTT, facilitating seamless data management. The collected data is stored in Azure Cosmos DB for future analysis. An Azure Function App, triggered by Event Grid, processes the data and sends real-time notifications via a Telegram bot, enhancing user awareness. This  integration ensures efficient room management and occupant notification.
+The project implements an intelligent system for visitor counting and light control. Two infrared motion sensors track movement at the entrance, with an microcontroller ESP8266 capturing and transmitting data to Azure IoT Hub via MQTT. The collected information is stored in Azure Cosmos DB and Azure Storage in JSON format. Azure Functions process the data, sending real-time notifications via Telegram and controlling an LED based on room occupancy. The project aims for efficient room management, user awareness through notifications, and utilizes Power BI for monitoring key metrics.
 
 ## Installation
 1. Install the latest version of the Arduino IDE on your computer.
