@@ -20,7 +20,7 @@ This project aims to implement an intelligent room system integrating a visitor 
 3. Install the Azure SDK for C library in the Arduino IDE library manager.
 
 ## System Architecture
-![circuit](Images/diagram.png)
+![circuit](Images/Project_diagram.drawio.png)
 
 ## Hardware Components
 - 2 IR motion sensors (for counting incoming and outgoing visitors)
